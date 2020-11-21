@@ -1,0 +1,460 @@
+
+	body {
+		margin: 0px;
+	/* this is the settings of the content placement on the website */
+}
+
+
+* {
+  box-sizing: border-box;
+  /* border settings for widht and height */
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid none;
+  border-radius: 4px;
+  resize: vertical;
+  /* another setting for border in contact page */
+}
+
+
+
+input[type=name], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid none;
+  border-radius: 4px;
+  resize: vertical;
+  /* another setting for border in contact page */
+}
+
+input[type=number], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid none;
+  border-radius: 4px;
+  resize: vertical;
+  /* another setting for border in contact page */
+}
+
+input[type=tel], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid none;
+  border-radius: 4px;
+  resize: vertical;
+  /* another setting for border in contact page */
+}
+
+input[type=email], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid none;
+  border-radius: 4px;
+  resize: vertical;
+  /* another setting for border in contact page */
+}
+
+
+input[type=username], select, textarea {
+  width: 75%;
+  padding: 12px;
+  border: 1px solid none;
+  border-radius: 4px;
+  resize: vertical;
+  /* another setting for border in contact page */
+}
+
+
+input[type=password], select, textarea {
+  width: 75%;
+  padding: 12px;
+  border: 1px solid none;
+  border-radius: 4px;
+  resize: vertical;
+  /* another setting for border in contact page */
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  /* another setting for border in contact page */
+}
+
+input[type=submit] {
+  background-color: gray;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  /* settings for the submit button */
+}
+
+input.login[type=submit] {
+  background-color: gray;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: left;
+  /* settings for the submit button */
+}
+
+input[type=submit]:hover {
+  background-color: black;
+  /* settings for hovering over submut button */
+}
+
+input[type=reset] {
+  background-color: gray;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  /* settings for the submit button */
+}
+
+
+
+input[type=reset]:hover {
+  background-color: black;
+  /* settings for hovering over submut button */
+}
+
+input[type=button] {
+  background-color: gray;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: left;
+  /* settings for the submit button */
+}
+
+input[type=button]:hover {
+  background-color: black;
+  /* settings for hovering over submut button */
+}
+
+.select {
+  width: 100px
+}
+
+.container {
+  border-radius: 5px;
+  background-color: none;
+  padding: 20px;
+  /* settings for the forms box color */
+}
+
+.container a {
+  color: lightgreen;
+  text-decoration: none;
+}
+
+
+.box {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+  /* settings for one of the boxes where you fill in your name */
+}
+
+.box2 {
+  float: left;
+  width: 10%;
+  margin-top: 6px;
+  /* settings for one of the boxes where you fill in your name */
+}
+
+.box3 {
+  float: center;
+  width: 20%;
+  margin-top: 6px;
+  /* settings for one of the boxes where you fill in your name */
+}
+
+b {
+  color: red;
+}
+
+
+#cvalue {
+  height: 20px;
+}
+
+
+
+
+.box4 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+  /* settings for one of the boxes where you fill in your name */
+}
+
+
+.about {
+  float: right;
+}
+
+.about:hover {
+  background-color: black;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  /* Clear floats after the columns */
+}
+
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+   }
+ /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+}
+
+.newsandabout {
+	text-align: center;
+	font-size: 20px;
+  /* text settings in news and about page */
+}
+
+.top {
+  border-color: gray;
+  text-align: center;
+}
+
+.text1 {
+font-family: 'Fira Code', monospace;
+color: white;
+text-align: left;
+font-size: 20px;
+/* this is the settings of the text (see in html file) */
+}
+.background {
+font-family: 'Anton', sans-serif;
+background-image: url("../img/leaves.jpg");
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: 100% auto;
+color: white;
+  /* settings for background in all pages except home page */
+}
+.text2 {
+font-family: 'Teko', sans-serif;
+color: red;
+text-align: left;
+font-size: 20px;
+/* this is the settings of the text and background (see in html file) */
+}
+
+.frame {
+  border: none;
+  overflow: hidden;
+  text-align: center;
+}
+
+.instagram {
+  text-align: center;
+}
+
+
+h1 {
+text-align: center;
+color: lightgreen;
+border: 2px solid green;
+/* this is the settings for the captions */
+}
+
+h2 {
+text-align: center;
+color: lightgreen;
+border: 2px solid green;
+/* this is the settings for the captions */
+}
+
+h3 {
+text-align: center;
+color: lightgreen;
+border: 2px solid green;
+/* this is the settings for the captions */
+}
+
+h4 {
+text-align: center;
+color: lightgreen;
+border: 2px solid green;
+/* this is the settings for the captions */
+}
+
+.sunrise {
+font-family: 'Anton', sans-serif;
+background-image: url("../img/leaves.jpg");
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: 100% auto;
+/* this is the settings of the second background */
+}
+p {
+text-align: left;
+color: orange;
+background-color: gray;
+/* this is the settings for the text with tag <p> (paraghrap) */
+}
+
+#p1 {
+text-align: right;
+color: green;
+/* this is the settings for the text with tag <p> specifically with id p1 */
+}
+
+#subject {
+  height: 200px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: none;
+  /* this is the settings for the top bar and buttom bar */
+}
+
+li {
+  border-right:1px solid #bbb;
+  /* this is the settings for the text placement */
+}
+
+li.menu {
+  float: left;
+}
+
+li.about {
+  float: right;
+}
+
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  /* this is the setting for the text in the bars */
+}
+
+li a:not:hover (.active) {
+  background-color: white;
+  /* color settings for hovering over the bar */
+}
+
+.active {
+  background-color: gray;
+  /* color setting for the bar */
+}
+
+.menu:hover {
+  background-color: black;
+}
+
+
+div.gallery {
+  border: 0px;
+  /* this is the settings for the outline of the pictures */
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+/* this is the settings when you hover over the images */
+}
+
+div.gallery img {
+  width: 100%;
+  height: 200px;
+  /* this is the settings for the size of the images */
+}
+
+div.gallery1 img {
+  width: 100%;
+  height: 100px;
+  /* this is the settings for the size of the images */
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  /* this is the settings for the text descriptions of the images */
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+  /* another settings for the images allignment */
+}
+
+.responsive1 {
+  padding: 0 6px;
+  float: center;
+  width: 24.99999%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* another settings for the images allignment */
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+table, th, td {
+  margin-left: auto;
+  margin-right: auto;
+  float: center;
+  border: 2px solid #000;
+  text-align: center;
+  border-collapse: collapse;
+  background-color: white;
+  color: black;
+  padding: 30px 20px;
+}
+
+tbody :first-child {
+  background-color: lightgray;
+}
+th {
+  background-color: lightgray;
+}
+
+
